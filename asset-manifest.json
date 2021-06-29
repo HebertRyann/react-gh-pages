@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b64ed281.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.cd216314.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.cd216314.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.732442c1.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.732442c1.js.map",
-    "static/js/2.12f3c9b0.chunk.js": "/react-gh-pages/static/js/2.12f3c9b0.chunk.js",
-    "static/js/2.12f3c9b0.chunk.js.map": "/react-gh-pages/static/js/2.12f3c9b0.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.2beb5f90eff64180545d7ec5c7b7f8d8.js": "/react-gh-pages/precache-manifest.2beb5f90eff64180545d7ec5c7b7f8d8.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.b64ed281.chunk.css.map": "/react-gh-pages/static/css/main.b64ed281.chunk.css.map",
-    "static/js/2.12f3c9b0.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.12f3c9b0.chunk.js.LICENSE.txt",
-    "static/media/heroes.png": "/react-gh-pages/static/media/heroes.1f4b5508.png",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.62e865e1.svg"
+    "main.css": "/static/css/main.b64ed281.chunk.css",
+    "main.js": "/static/js/main.cd216314.chunk.js",
+    "main.js.map": "/static/js/main.cd216314.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c46e58d3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c46e58d3.js.map",
+    "static/js/2.12f3c9b0.chunk.js": "/static/js/2.12f3c9b0.chunk.js",
+    "static/js/2.12f3c9b0.chunk.js.map": "/static/js/2.12f3c9b0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bc311ff259851d61d4bff6ddde8d1bf1.js": "/precache-manifest.bc311ff259851d61d4bff6ddde8d1bf1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b64ed281.chunk.css.map": "/static/css/main.b64ed281.chunk.css.map",
+    "static/js/2.12f3c9b0.chunk.js.LICENSE.txt": "/static/js/2.12f3c9b0.chunk.js.LICENSE.txt",
+    "static/media/heroes.png": "/static/media/heroes.1f4b5508.png",
+    "static/media/logo.svg": "/static/media/logo.62e865e1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.732442c1.js",
+    "static/js/runtime-main.c46e58d3.js",
     "static/js/2.12f3c9b0.chunk.js",
     "static/css/main.b64ed281.chunk.css",
     "static/js/main.cd216314.chunk.js"
