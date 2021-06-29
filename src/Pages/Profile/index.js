@@ -7,7 +7,9 @@ import './style.css'
 
 export default function Profile(){
     const incidents = [
-        {id: 1, title: 'Adote um Cachorrinho', description: 'Filhotes para adoção', value: 50},
+        {id: 1, title: 'Adote um Cachorrinho', description: 'Filhotes de cães para adoção', value: 100},
+        {id: 2, title: 'Adote um Gatinho', description: 'Filhotes gatos para adoção', value: 120},
+        {id: 3, title: 'Ajude a cadelinha Jude', description: 'A cadelinha jude não perdeu uma pata em um acidente de carro, ajude ela a compra uma protese', value: 150},
     ];
     const history = useHistory();
     const ongName = localStorage.getItem('ongName');
@@ -22,7 +24,7 @@ export default function Profile(){
             //     }
 
             // });            
-            incidents.filter(incident => incident.id !== id);
+            incidents = incidents.filter(incident => incident.id !== id);
         } catch {
             alert('Error ao deletar')
         }
