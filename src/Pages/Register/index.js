@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './style.css';
 import logoImg from '../../assets/logo.svg'
 import {Link, useHistory} from 'react-router-dom';
-import {FiArrowLeft} from 'react-icons/fi';import api from '../../services/api';
+import {FiArrowLeft} from 'react-icons/fi';
+// import api from '../../services/api';
 export default function Register(){
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -24,7 +25,7 @@ export default function Register(){
 
         try {
             // const response = await api.post('ongs', data)
-        alert(`Cadastro realizado com sucesso: ${response.data.id}`);
+        alert(`Cadastro realizado com sucesso: ${Math.floor(Math.random() * 50)}`);
         history.push('/')
         } catch (err) {
             alert('erro')
