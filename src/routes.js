@@ -7,7 +7,7 @@ import NewIncident from './Pages/NewIncident';
 
 export default function Routes(){ 
     return (
-        <HashRouter basename="https://hebertryann.github.io/react-gh-pages">
+        <HashRouter >
             <Switch>
                 <Route path="/" exact component={Logon} />
                 <Route path="/register" component={Register} />
