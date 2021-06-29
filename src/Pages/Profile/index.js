@@ -6,29 +6,22 @@ import api from '../../services/api'
 import './style.css'
 
 export default function Profile(){
-    const [incidents, setIncidents] = useState([]);
+    const incidents = [
+        {id: 1, title: 'Adote um Cachorrinho', description: 'Filhotes para adoção', value: 50},
+    ];
     const history = useHistory();
     const ongName = localStorage.getItem('ongName');
     const ongId = localStorage.getItem('ongId');
-    useEffect(() => {
-       api.get('profile', {
-           headers: {
-               Authorization: ongId,
-           }
-       }).then(response => {
-           setIncidents(response.data);
-       })
 
-    }, [ongId]);
 
     async function handleDeleteIncident(id){
         try {
-            await api.delete(`incidents/${id}`, {
-                headers: {
-                    Authorization: ongId,
-                }
+            // await api.delete(`incidents/${id}`, {
+            //     headers: {
+            //         Authorization: ongId,
+            //     }
 
-            });            
+            // });            
             setIncidents(incidents.filter(incident => incident.id !== id))
         } catch {
             alert('Error ao deletar')

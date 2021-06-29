@@ -23,15 +23,15 @@ export default function Newincident(){
         };
 
         try {
-            await api.post('incidents',data,{
-                headers: {
-                    Authorization: ongId,
+            // await api.post('incidents',data,{
+            //     headers: {
+            //         Authorization: ongId,
 
-                }
-            })
+            //     }
+            // })
             history.push('/profile');
         } catch (err) {
-            alert('erro ao castradr caso')
+            alert('erro ao cadastrar caso')
         }
 
     }
